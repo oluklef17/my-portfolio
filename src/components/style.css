@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap");
+
+html,
+body {
+  height: 100%;
+  min-width: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 3.5em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  bottom: -1.5em;
+  right: 0;
+}
+
+.my-name a {
+  font-size: 20px;
+}
+
+a,
+.my-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding: 0.3em;
+  margin: 1em;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-item {
+  position: relative;
+  display: inline;
+  margin: 2em;
+}
+
+/*a:hover .tooltip {
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+}*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  color: aqua;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.hero-heading {
+  display: block;
+  color: burlywood;
+  font-size: 40px;
+  margin: 0;
+  padding: 30px;
+}
+
+.divider {
+  color: burlywood;
+  width: 50%;
+}
+
+.name-header {
+  color: burlywood;
+  font-family: "Roboto Serif", serif;
+  margin: 10px;
+  text-shadow: 3px 3px 4px black;
+}
+
+.role-header {
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.container h1 span {
+  background-color: #fff;
+  color: burlywood;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.container .sm-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.sm-btn {
+  width: 5em;
+  height: 1.5em;
+  font-size: 1em;
+  margin: 1.5em;
+  box-shadow: 3px 3px 4px black;
+  transition: width 0.3s ease-in-out;
+  border-radius: 15px;
+  background-color: burlywood;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  transition: width 0.3s ease-in-out;
+}
+
+.sm-btn:hover {
+  width: 7em;
+  height: 1.5em;
+  margin: 1.5em;
+  color: burlywood;
+  background-color: black;
+  border: 1px solid burlywood;
+  border-radius: 15px;
+}
+
+/*ABOUT PAGE*/
+.description {
+  width: 50%;
+  font-size: 20px;
+  color: burlywood;
+}

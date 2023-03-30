@@ -1,0 +1,30 @@
+/*ABOUT PAGE*/
+body, .container{
+  background: black;
+  height: fit-content;
+}
+
+.description{
+    width: 50%;
+    font-size: 20px;
+    color: burlywood;
+}
+
+.profile-pic{
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.img-frame{
+    display: flex;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me{
+  color: burlywood;
+  margin-top: 2em;
+}

@@ -1,0 +1,110 @@
+/*PROJECTS PAGE*/
+body{
+  background-color: black;
+  height: fit-content;
+}
+
+#wrapper{
+   margin-top: 2em;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+  align-items: center;
+   width: 80%;
+   height: 80%;
+   /*border: 2px solid burlywood;*/
+}
+
+#project{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  color: burlywood;
+  /*border: 2px solid red;*/
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#project h3{
+  margin-top: 2em;
+}
+
+#project a{
+  margin: 2em;
+}
+
+#project-img{
+  width: 40em;
+  height: auto;
+  display: block;
+  border: 2px solid burlywood;
+  padding: 1em;
+}
+
+#desc-body, #desc-body-p1, #desc-body-p2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+   width: 80%;
+  margin: 2em;
+}
+
+.desc-label{
+  display: inline-block;
+}
+
+
+#project-link{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: burlywood;
+  border: 1px solid burlywood;
+  bottom: 1em;
+  font-size: 1em;
+  padding: 0.7em;
+  text-decoration: none;
+}
+
+.scroll-btns{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+
+#previous{
+   position: fixed;
+   top: 50%;
+   left: 3em;
+   width: 5em;
+   height: 3em;
+   padding: 5px;
+   background-color: black;
+   color: burlywood;
+   border: 2px solid burlywood;
+   border-radius: 20px;
+}
+
+#next{
+  position: fixed;
+  right: 3em;
+  top: 50%;
+  width: 5em;
+  height: 3em;
+  padding: 5px;
+  background-color: black;
+  color: burlywood;
+  border: 2px solid burlywood;
+  border-radius: 20px;
+}

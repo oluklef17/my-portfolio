@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+#wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-header{
+    color: burlywood;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-header h1{
+    position: absolute;
+    width: 50%;
+    top: 30%;
+}
+
+#contact-links {
+    position: absolute;
+    top: 55%;
+}
+
+#contact-links a{
+    position: relative;
+    font-size: 2.5em;
+    padding: 0;
+    color: burlywood;
+    top: 45%;
+    margin: 0.5em;
+    background-color: black;
+    border: 1px solid black;
+    transition: font-size 0.3s ease-in-out;
+}
+
+#contact-links a:hover{
+    font-size: 4em;
+}
