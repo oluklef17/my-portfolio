@@ -1,23 +1,23 @@
 /*PROJECTS PAGE*/
-body{
+body {
   background-color: black;
   height: fit-content;
 }
 
-#wrapper{
-   margin-top: 2em;
-   margin-left: auto;
-   margin-right: auto;
-   display: flex;
-   text-align: center;
-   justify-content: center;
+#wrapper {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
   align-items: center;
-   width: 80%;
-   height: 80%;
-   /*border: 2px solid burlywood;*/
+  width: 80%;
+  height: 80%;
+  /*border: 2px solid burlywood;*/
 }
 
-#project{
+#project {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -31,15 +31,15 @@ body{
   margin-bottom: 2em;
 }
 
-#project h3{
+#project h3 {
   margin-top: 2em;
 }
 
-#project a{
+#project a {
   margin: 2em;
 }
 
-#project-img{
+#project-img {
   width: 40em;
   height: auto;
   display: block;
@@ -47,21 +47,22 @@ body{
   padding: 1em;
 }
 
-#desc-body, #desc-body-p1, #desc-body-p2{
+#desc-body,
+#desc-body-p1,
+#desc-body-p2 {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-   width: 80%;
+  width: 80%;
   margin: 2em;
 }
 
-.desc-label{
+.desc-label {
   display: inline-block;
 }
 
-
-#project-link{
+#project-link {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -73,7 +74,7 @@ body{
   text-decoration: none;
 }
 
-.scroll-btns{
+.scroll-btns {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -82,21 +83,20 @@ body{
   margin-top: 1em;
 }
 
-
-#previous{
-   position: fixed;
-   top: 50%;
-   left: 3em;
-   width: 5em;
-   height: 3em;
-   padding: 5px;
-   background-color: black;
-   color: burlywood;
-   border: 2px solid burlywood;
-   border-radius: 20px;
+#previous {
+  position: fixed;
+  top: 50%;
+  left: 3em;
+  width: 5em;
+  height: 3em;
+  padding: 5px;
+  background-color: black;
+  color: burlywood;
+  border: 2px solid burlywood;
+  border-radius: 20px;
 }
 
-#next{
+#next {
   position: fixed;
   right: 3em;
   top: 50%;
@@ -107,4 +107,34 @@ body{
   color: burlywood;
   border: 2px solid burlywood;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #wrapper {
+    width: 90%;
+  }
+
+  #previous {
+    top: 75%;
+  }
+
+  #next {
+    top: 75%;
+  }
+
+  #project-img {
+    width: 70%;
+  }
+
+  #desc-body,
+  #desc-body-p1,
+  #desc-body-p2 {
+    font-size: 7.5px;
+  }
+
+  #project-link {
+    width: 80%;
+    left: 2em;
+    right: 2em;
+  }
 }

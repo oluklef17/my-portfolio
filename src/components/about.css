@@ -1,30 +1,47 @@
 /*ABOUT PAGE*/
-body, .container{
+body,
+.container {
   background: black;
   height: fit-content;
 }
 
-.description{
-    width: 50%;
-    font-size: 20px;
-    color: burlywood;
+.description {
+  width: 50%;
+  font-size: 20px;
+  color: burlywood;
 }
 
-.profile-pic{
+.profile-pic {
   margin: 5px;
   border-radius: 20px;
 }
 
-.img-frame{
-    display: flex;
-    border: 2px solid burlywood;
-    border-radius: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.img-frame {
+  display: flex;
+  border: 2px solid burlywood;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-#about-me{
+#about-me {
   color: burlywood;
   margin-top: 2em;
+}
+
+/*For screens smaller than 600px*/
+@media (max-width: 600px) {
+  #about-me {
+    font-size: 20px;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: auto;
+  }
+
+  .description {
+    font-size: 10px;
+  }
 }
